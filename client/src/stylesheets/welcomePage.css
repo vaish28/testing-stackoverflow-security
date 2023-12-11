@@ -1,0 +1,41 @@
+/* welcomePage.css */
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../assets/download.jpg'); /* Add the path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.welcome-header {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: wheat;
+}
+
+.welcome-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: rosybrown;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.welcome-button:hover {
+  background-color: #dfc7da;
+}

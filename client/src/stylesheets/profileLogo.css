@@ -1,0 +1,13 @@
+/* profileLogo.css */
+
+.profile-logo {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .profile-logo img {
+    width: 40px; /* Adjust the width of the logo or image */
+    height: 40px; /* Adjust the height of the logo or image */
+    border-radius: 50%; /* Make the image circular (adjust if needed) */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  

@@ -1,0 +1,15 @@
+/* Add global CSS here */
+body {
+  margin: 0;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 0.1fr minmax(0, 1fr); /* Three columns */
+  grid-template-rows: 80px auto;
+  /* Define grid areas */
+  grid-template-areas:
+    "header header header"
+    "sidebar main main";
+}

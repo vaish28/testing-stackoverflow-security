@@ -1,0 +1,73 @@
+.header {
+    grid-area: header;
+    width: 100%;
+    height: 80px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+  }
+
+  #titleApplication {
+    
+    font-size: 25px;
+    font-family: verdana;
+    text-align: center;
+    margin-left: 40%;
+    line-height: 50px;
+    display: inline;
+  }
+
+
+  
+  .searchBar {
+    font-size: 10px;
+    font-family: verdana;
+    margin-left: auto; /* Move the search bar to the right edge of the header */
+    margin-right: 20px; /* Add margin to separate it from the title */
+    padding-right: 10px; /* Adjust padding as needed */
+    line-height: 10px;
+    width: auto;
+    height: 20px;
+  }
+  
+  .back{
+    margin-right: auto;
+  }
+  
+  .sidebar {
+    grid-area: sidebar;
+    display: flex;
+    width: 200px;
+    background-color: white;
+  }
+
+  
+
+  .sidebar button{
+    color:aliceblue;
+    background-color:rgb(161, 216, 223);
+    display: inline;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+
+  .sidebar button hover{
+    
+    color: white;
+    background-color: lightblue;
+  }
+
+  .sidebar button.active {
+    background-color: grey; /* Set the active button background to grey */
+  }
+
+
+  .side-bar-dotted-line {
+    border-left: 2px dotted #000;
+    height: 100%;
+    margin-left: 0px;
+    padding: 50px 20px;
+}

@@ -1,0 +1,47 @@
+.question-details-container {
+    padding: 80px;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 900px;
+    margin: 20px 100px;
+}
+
+.backButton, .editButton, .deleteButton {
+    background-color: #e24a89;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.backButton:hover, .editButton:hover, .deleteButton:hover {
+    background-color: #dfc7da;
+}
+
+.question-details-container h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.question-details-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.question-details-container input[type="text"], 
+.question-details-container textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.question-details-container textarea {
+    height: 150px;
+}

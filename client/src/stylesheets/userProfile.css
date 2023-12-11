@@ -1,0 +1,43 @@
+/* Assuming these styles are scoped to your User Profile component */
+
+.main-userProfile {
+    max-width: 600px;
+    margin: 50px 100px;
+    padding: 80px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.heading {
+    color: #333;
+  }
+  
+.userDetails p {
+    margin-bottom: 10px;
+  }
+  
+  .main-content h3 {
+    color: #555;
+  }
+  
+  .main-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .main-content li {
+    margin-bottom: 8px;
+  }
+  
+  .main-content a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
